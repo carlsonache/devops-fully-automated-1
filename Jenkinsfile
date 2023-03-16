@@ -63,8 +63,8 @@ pipeline {
           steps {
             sh """mvn sonar:sonar \
                       -Dsonar.projectKey=sonar \
-                      -Dsonar.host.url=http://54.211.144.113:9000 \
-                      -Dsonar.login=db0767264ee7725fd4f468b10509dfc2a1d04b47"""
+                      -Dsonar.host.url=http://18.234.187.124:9000 \
+                      -Dsonar.login=7c285f9f569bec88a6d987b929c92521e36c0fe4"""
           }
         }
 
